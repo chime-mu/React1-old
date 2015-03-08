@@ -1,9 +1,6 @@
 # TODO
 
-* Respond to the call to get comments
-	* Possibly by returning hardcoded JSON
-	* Then by translating from an erlangt structure to JSON
-* Store the comments in an ets structure and serve them from there
-* Make a REST call that handles the POST and updates the comments
+* Convert comment_handler to REST and let it handle the GET call
+* Handle POST and update the comments
 
 Then the complete example should be working 
